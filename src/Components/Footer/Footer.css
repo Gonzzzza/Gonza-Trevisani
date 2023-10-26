@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@500;800&display=swap');
+
+
+
+/* ============= Footer  ============ */
+.container-footer {
+    padding: 40px 80px;
+    background-color: #000;
+    height: 40vh;
+    color: aliceblue;
+    font-family:'Source Sans 3', sans-serif;
+}
+.first-line-footer {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.container-social-footer {
+    flex: 1;
+    text-align: end;
+    margin: auto;
+}
+.container-social-footer h2 {
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-size: 28px;
+}
+.link-icon-social {
+    font-size: 28px;
+    margin-right: 8px;
+    color: aliceblue;
+}
+.container-data-footer {
+    flex: 0.9;
+    margin: 40px 10px;
+    /* display: block; */
+    /* text-transform: uppercase; */
+}
+.name-footer {
+    font-size: 30px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+.data-footer {
+    font-size: 15px;
+}
+.span-footer {
+    display: flex;
+    height: 1px;
+    background-color: #666;
+    width: 100%;
+    margin: 0 auto;
+}
+.container-copy-footer {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    font-size: 12px;
+}
+.container-copy-footer a {
+    text-decoration: none; 
+    color: aliceblue;
+    margin-left: 5px;
+    font-size: 12px;
+}
+/* ============= Footer Responsive Tablet ============ */
+@media screen and (max-width: 820px) {
+    .container-footer {
+        padding: 40px;
+        background-color: #000;
+        height: 22vh;
+        color: aliceblue;
+        font-family:'Source Sans 3', sans-serif;
+    }
+    .first-line-footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+    .container-social-footer {
+        flex: 1;
+        text-align: center;
+        margin: auto;
+    }
+    .container-social-footer h2 {
+        text-transform: uppercase;
+        padding: 20px 0;
+        font-size: 28px;
+    }
+    .link-icon-social {
+        font-size: 28px;
+        margin-right: 8px;
+        color: aliceblue;
+    }
+    .container-data-footer {
+        flex: 1.9;
+        margin: 40px 10px;
+        /* display: block; */
+        /* text-transform: uppercase; */
+    }
+    .name-footer {
+        font-size: 30px;
+        margin: 10px 0;
+        text-transform: uppercase;
+    }
+    .data-footer {
+        font-size: 15px;
+    }
+    .span-footer {
+        display: flex;
+        height: 1px;
+        background-color: #666;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .container-copy-footer {
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 35px 0;
+        font-size: 12px;
+    }
+    .container-copy-footer a {
+        text-decoration: none; 
+        color: aliceblue;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+}
+/* ============= Footer Responsive Mobile ============ */
+@media screen and (max-width: 414px) {
+    .container-footer {
+        padding: 40px 20px ;
+        background-color: #000;
+        height: 42vh;
+        color: aliceblue;
+        font-family:'Source Sans 3', sans-serif;
+    }
+    .first-line-footer {
+        display: block;
+    }
+    .container-social-footer {
+        display: block;
+        text-align: left;
+        margin-bottom: 40px ;
+    }
+    .container-social-footer h2 {
+        text-transform: uppercase;
+        padding: 20px 0;
+        font-size: 28px;
+    }
+    .link-icon-social {
+        font-size: 28px;
+        margin-right: 8px;
+        color: aliceblue;
+    }
+
+    .container-data-footer {
+        margin: 40px 0;
+        display: block;
+        /* text-transform: uppercase; */
+    }
+    .name-footer {
+        font-size: 30px;
+        margin: 10px 0;
+        text-transform: uppercase;
+    }
+    .data-footer {
+        font-size: 15px;
+    }
+    .span-footer {
+        display: flex;
+        height: 1px;
+        background-color: #666;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container-copy-footer {
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 0;
+        font-size: 12px;
+    }
+    .container-copy-footer a {
+        text-decoration: none; 
+        color: aliceblue;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+}

@@ -46,7 +46,7 @@ export const Moggeta = () => {
                                 <a href={design} download>
                                     <button className='btn-link-project-5'>Download Design</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://gonza-trevisani.vercel.app/">
                                     <button className='btn-back-project-5'>Go back</button>
                                 </a>
                             </div>

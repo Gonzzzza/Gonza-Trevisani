@@ -21,7 +21,7 @@ export const Header = () => {
                         {/* <img src={imagelogo} alt="" /> */}
                     </div>
                     <div className="container-name">
-                        <a href="/">
+                        <a href="https://gonza-trevisani.vercel.app/">
                             <h3>Gonza Trevisani</h3>
                         </a>
                     </div>
@@ -36,22 +36,22 @@ export const Header = () => {
             </div>
             <nav className={`container-links ${isMenuOpen ? 'open' : ''}`}>
                 <div className='link'>
-                    <a href="/#home" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
+                    <a href="https://gonza-trevisani.vercel.app/#home" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
                         <h3>Home</h3>
                     </a>
                 </div>
                 <div className='link'>
-                    <a href="/#about" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
+                    <a href="https://gonza-trevisani.vercel.app/#about" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
                         <h3>About</h3>
                     </a>
                 </div>
                 <div className='link'>
-                    <a href="/#projects" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
+                    <a href="https://gonza-trevisani.vercel.app/#projects" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
                         <h3>Projects</h3>
                     </a>
                 </div>
                 <div className='link'>
-                    <a href="/#contact" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
+                    <a href="https://gonza-trevisani.vercel.app/#contact" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
                         <h3>Contact</h3>
                     </a>
                 </div>

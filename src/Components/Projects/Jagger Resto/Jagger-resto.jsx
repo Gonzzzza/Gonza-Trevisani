@@ -55,7 +55,7 @@ export const Jagger = () => {
                                 <a target='_blank' href="https://dashboard-store-orcin.vercel.app/">
                                     <button className='btn-link-project-4'>Live Link</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://gonza-trevisani.vercel.app/">
                                     <button className='btn-back-project-4'>Go back</button>
                                 </a>
                             </div>

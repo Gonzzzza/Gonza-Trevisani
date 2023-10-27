@@ -1,6 +1,5 @@
     import './Videogame-app.css';
     import project3 from '../../../assets/Images/project3-portfolio.jpg';
-    import project2 from '../../../assets/Images/project2-portfolio.jpg';
     
 
 
@@ -56,7 +55,7 @@ export const VideogameApp = () => {
                                 <a target='_blank' href="https://videogame-page-ten.vercel.app/">
                                     <button className='btn-link-project-3'>Live Link</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://gonza-trevisani.vercel.app/">
                                     <button className='btn-back-project-3'>Go back</button>
                                 </a>
                             </div>

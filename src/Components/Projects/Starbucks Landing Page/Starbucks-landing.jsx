@@ -51,7 +51,7 @@ export const StarLanding = () => {
                                 <a target='_blank' href="https://gonzzzza.github.io/Starbucks-Landingpage/">
                                     <button className='btn-link-project-2'>Live Link</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://gonza-trevisani.vercel.app/">
                                     <button className='btn-back-project-2'>Go back</button>
                                 </a>
                             </div>

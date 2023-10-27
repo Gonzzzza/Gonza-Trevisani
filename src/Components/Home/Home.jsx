@@ -20,7 +20,7 @@ export const Home = () => {
                         </p>
                     </div>
                     <div className="container-button-hero">
-                        <a href="#projects">
+                        <a href="https://gonza-trevisani.vercel.app/#projects">
                             <button className="btn-hero">
                                 Projects
                             </button>
@@ -55,11 +55,11 @@ export const Home = () => {
                 <div className="container-down-about">  
                     <div className="container-left-about">
                         <h1>Get to know me!</h1>
-                        <p className="about-text">I'm a <a href="#home"><span className="properties-text">Frontend Web Developer</span></a> building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <a href="#projects"><span className="properties-text"> Projects 
+                        <p className="about-text">I'm a <a href="https://gonza-trevisani.vercel.app/#home"><span className="properties-text">Frontend Web Developer</span></a> building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <a href="https://gonza-trevisani.vercel.app/#projects"><span className="properties-text"> Projects 
                         </span></a> section. 
                         </p>
-                        <p className="about-text">I'm open to <a href="#projects"><span className="properties-text">Job
-                        </span></a> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <a href="#contact"><span className="properties-text">contact</span></a> me.</p>
+                        <p className="about-text">I'm open to <a href="https://gonza-trevisani.vercel.app/#projects"><span className="properties-text">Job
+                        </span></a> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <a href="https://gonza-trevisani.vercel.app/#contact"><span className="properties-text">contact</span></a> me.</p>
                         <a href="#contact"><button className="btn-about">Contact</button></a>
                     </div>
                     <div className="container-rigth-about">
@@ -100,7 +100,7 @@ export const Home = () => {
                         <h1>Netflix Landing Page</h1>
                         <p className="projects-text">It is a landing page based on the visual of the Netflix streaming site, it is a project that helped me strengthen learning and generate confidence to create projects. 
                         </p>
-                        <a target='_blank' href="/project1"><button className="btn-projects">CASE STUDY</button></a>
+                        <a target='_blank' href="https://gonza-trevisani.vercel.app/project1"><button className="btn-projects">CASE STUDY</button></a>
                     </div>
                 </div>
                 <div className="container-down-section-projects">
@@ -111,7 +111,7 @@ export const Home = () => {
                         <h1>Starbucks Landing Page</h1>
                         <p className="projects-text">It is a landing page based on the visual of the Starbucks website, it is a project that helped me strengthen learning and generate confidence to create projects. 
                         </p>
-                        <a target='_blank' href="/project2"><button className="btn-projects">CASE STUDY</button></a>
+                        <a target='_blank' href="https://gonza-trevisani.vercel.app/project2"><button className="btn-projects">CASE STUDY</button></a>
                     </div>
                 </div>
                 <div className="container-down-section-projects-videogame">
@@ -122,7 +122,7 @@ export const Home = () => {
                         <h1>Videogame Page</h1>
                         <p className="projects-text">This is a video game page in which I bring data from an API and show it in a visual, it is a project I did to pass the bootcamp. Contains search engine, filters and video game creation form.
                         </p>
-                        <a target='_blank' href="/project3"><button className="btn-projects">CASE STUDY</button></a>
+                        <a target='_blank' href="https://gonza-trevisani.vercel.app/project3"><button className="btn-projects">CASE STUDY</button></a>
                     </div>
                 </div>
                 <div className="container-down-section-projects">
@@ -133,7 +133,7 @@ export const Home = () => {
                         <h1>Jager Resto</h1>
                         <p className="projects-text">It is a landing page for the restaurant Jager, it is a project that helped me strengthen learning and generate confidence to create projects.  
                         </p>
-                        <a target='_blank' href="/project4"><button className="btn-projects">CASE STUDY</button></a>
+                        <a target='_blank' href="https://gonza-trevisani.vercel.app/project4"><button className="btn-projects">CASE STUDY</button></a>
                     </div>
                 </div>
                 <div className="container-down-section-projects">
@@ -144,7 +144,7 @@ export const Home = () => {
                         <h1>Moggeta Landing Page</h1>
                         <p className="projects-text">It is a design created in figma for a landing page for a silo sales business. 6 page design created, finished and delivered. 
                         </p>
-                        <a target='_blank' href="/project5"><button className="btn-projects">CASE STUDY</button></a>
+                        <a target='_blank' href="https://gonza-trevisani.vercel.app/project5"><button className="btn-projects">CASE STUDY</button></a>
                     </div>
                 </div>
             </header>
@@ -179,7 +179,7 @@ export const Home = () => {
                                 <button type="submit" className="contact-btn">
                                     Submit
                                 </button>
-                                <input type="hidden" name="_next" value="http://localhost:5173/"></input>
+                                <input type="hidden" name="_next" value="https://gonza-trevisani.vercel.app/"></input>
                                 <input type="hidden" name="_captcha" value="false"></input>
                             </form>
                         </div>

@@ -16,12 +16,12 @@ function App() {
       {/* <div> */}
         <Header />
         <Routes>
-          <Route path='https://gonza-trevisani.vercel.app/' element={<Home />} />
-          <Route path='https://gonza-trevisani.vercel.app/project1' element={<NetLanding />} />
-          <Route path='https://gonza-trevisani.vercel.app/project2' element={<StarLanding />} />
-          <Route path='https://gonza-trevisani.vercel.app/project3' element={<VideogameApp />} />
-          <Route path='https://gonza-trevisani.vercel.app/project4' element={<Jagger />} />
-          <Route path='https://gonza-trevisani.vercel.app/project5' element={<Moggeta />} />
+          <Route path='https://gonza-trevisani-ddopxnihg-gonzzzza.vercel.app/' element={<Home />} />
+          <Route path='https://gonza-trevisani-ddopxnihg-gonzzzza.vercel.app/project1' element={<NetLanding />} />
+          <Route path='https://gonza-trevisani-ddopxnihg-gonzzzza.vercel.app/project2' element={<StarLanding />} />
+          <Route path='https://gonza-trevisani-ddopxnihg-gonzzzza.vercel.app/project3' element={<VideogameApp />} />
+          <Route path='https://gonza-trevisani-ddopxnihg-gonzzzza.vercel.app/project4' element={<Jagger />} />
+          <Route path='https://gonza-trevisani-ddopxnihg-gonzzzza.vercel.app/project5' element={<Moggeta />} />
         </Routes>
         <Footer />
       {/* </div> */}

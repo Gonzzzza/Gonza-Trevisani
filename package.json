@@ -1,6 +1,7 @@
 {
   "name": "portfolio-gonzza",
   "private": true,
+  "homepage": "gonzza-trevisani.vercel.app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

@@ -17,7 +17,7 @@
                             </p>
                         </div>
                         <div className="container-button-project1">
-                            <a target='_blank' href="https://gonzzzza.github.io/netflix-landingpage/">
+                            <a target='_blank' rel='noreferrer' href="https://gonzzzza.github.io/netflix-landingpage/">
                                 <button className="btn-project1">
                                     Live Link
                                 </button>
@@ -48,7 +48,7 @@
                         <div className="container-see-project-1">
                             <h3 className="title-project-1">See live</h3>
                             <div className="container-buttons-project-1">
-                                <a target='_blank' href="https://gonzzzza.github.io/netflix-landingpage/">
+                                <a target='_blank' rel='noreferrer' href="https://gonzzzza.github.io/netflix-landingpage/">
                                     <button className='btn-link-project-1'>Live Link</button>
                                 </a>
                                 <a href="https://gonza-trevisani.vercel.app/">

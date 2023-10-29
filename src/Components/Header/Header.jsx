@@ -1,4 +1,4 @@
-import imagelogo from '../../assets/Images/fotologo1.jpeg';
+import { Link } from 'react-router-dom';
 import './Header.css'
 import { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
@@ -21,9 +21,11 @@ export const Header = () => {
                         {/* <img src={imagelogo} alt="" /> */}
                     </div>
                     <div className="container-name">
-                        <a href="https://gonza-trevisani.vercel.app/">
-                            <h3>Gonza Trevisani</h3>
-                        </a>
+                        <Link to='/'>
+                            <a href="">
+                                <h3>Gonza Trevisani</h3>
+                            </a>
+                        </Link>
                     </div>
                 </div>
                 <div className={`container-button ${isMenuOpen ? 'open' : ''}`}>
@@ -36,24 +38,32 @@ export const Header = () => {
             </div>
             <nav className={`container-links ${isMenuOpen ? 'open' : ''}`}>
                 <div className='link'>
-                    <a href="https://gonza-trevisani.vercel.app/#home" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
-                        <h3>Home</h3>
-                    </a>
+                    <Link to='#home'>
+                        <a href="" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
+                            <h3>Home</h3>
+                        </a>
+                    </Link>
                 </div>
                 <div className='link'>
-                    <a href="https://gonza-trevisani.vercel.app/#about" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
-                        <h3>About</h3>
-                    </a>
+                     <Link to='#about'>
+                        <a href="" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
+                            <h3>About</h3>
+                        </a>
+                     </Link>
                 </div>
                 <div className='link'>
-                    <a href="https://gonza-trevisani.vercel.app/#projects" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
-                        <h3>Projects</h3>
-                    </a>
+                     <Link to='#projects'>
+                        <a href="" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
+                            <h3>Projects</h3>
+                        </a>
+                     </Link>
                 </div>
                 <div className='link'>
-                    <a href="https://gonza-trevisani.vercel.app/#contact" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
-                        <h3>Contact</h3>
-                    </a>
+                     <Link to='#contact'>
+                        <a href="" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
+                            <h3>Contact</h3>
+                        </a>
+                     </Link>
                 </div>
             </nav>
         </header>

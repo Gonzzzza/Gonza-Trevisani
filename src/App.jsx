@@ -9,19 +9,20 @@ import { VideogameApp } from '../src/Components/Projects/Videogame App/Videogame
 import { Jagger } from '../src/Components/Projects/Jagger Resto/Jagger-resto'
 import { Moggeta } from '../src/Components/Projects/Moggeta Landing Page/Moggeta-landing'
 
+const basename = '/Gonza-Trevisani'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       {/* <div> */}
         <Header />
         <Routes>
-          <Route path='https://gonzzzza.github.io/Gonza-Trevisani/' element={<Home />} />
-          <Route path='https://gonzzzza.github.io/Gonza-Trevisani/project1' element={<NetLanding />} />
-          <Route path='https://gonzzzza.github.io/Gonza-Trevisani/project2' element={<StarLanding />} />
-          <Route path='https://gonzzzza.github.io/Gonza-Trevisani/project3' element={<VideogameApp />} />
-          <Route path='https://gonzzzza.github.io/Gonza-Trevisani/project4' element={<Jagger />} />
-          <Route path='https://gonzzzza.github.io/Gonza-Trevisani/project5' element={<Moggeta />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/project1' element={<NetLanding />} />
+          <Route path='/project2' element={<StarLanding />} />
+          <Route path='/project3' element={<VideogameApp />} />
+          <Route path='/project4' element={<Jagger />} />
+          <Route path='/project5' element={<Moggeta />} />
         </Routes>
         <Footer />
       {/* </div> */}

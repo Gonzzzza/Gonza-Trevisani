@@ -1,4 +1,5 @@
 import { AiFillLinkedin, AiOutlineGithub } from "react-icons/ai";
+import { Link } from "react-router-dom";
 import './Home.css'
 import project1 from '../../assets/Images/project1-porfolio.jpg';
 import project2 from '../../assets/Images/project2-portfolio.jpg';
@@ -20,11 +21,11 @@ export const Home = () => {
                         </p>
                     </div>
                     <div className="container-button-hero">
-                        <a href="https://gonza-trevisani.vercel.app/#projects">
+                        <Link to="#projects">
                             <button className="btn-hero">
                                 Projects
                             </button>
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className="mouse">

@@ -3,7 +3,7 @@ import './Header.css'
 import { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
-const basename = '/Gonza-Trevisani';
+const basename = 'gonzza-trevisani.vercel.app';
 
 export const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);

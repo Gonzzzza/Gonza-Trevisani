@@ -6,7 +6,7 @@ import project3 from '../../assets/Images/project3-portfolio.jpg';
 import project4 from '../../assets/Images/project4-portfolio.jpg';
 import project5 from '../../assets/Images/project5-portfolio.jpg';
 
-const basename = '/Gonza-Trevisani';
+const basename = 'gonzza-trevisani.vercel.app';
 
 export const Home = () => {
     return( 

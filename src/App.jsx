@@ -9,7 +9,7 @@ import { VideogameApp } from '../src/Components/Projects/Videogame App/Videogame
 import { Jagger } from '../src/Components/Projects/Jagger Resto/Jagger-resto'
 import { Moggeta } from '../src/Components/Projects/Moggeta Landing Page/Moggeta-landing'
 
-const basename = '/Gonza-Trevisani';
+const basename = 'gonzza-trevisani.vercel.app';
 
 function App() {
   return (

@@ -17,7 +17,7 @@ export const StarLanding = () => {
                             </p>
                         </div>
                         <div className="container-button-project2">
-                            <a target='_blank' href="https://gonzzzza.github.io/Starbucks-Landingpage/">
+                            <a target='_blank' rel='noreferrer' href="https://gonzzzza.github.io/Starbucks-Landingpage/">
                                 <button className="btn-project2">
                                     Live Link
                                 </button>
@@ -48,10 +48,10 @@ export const StarLanding = () => {
                         <div className="container-see-project-2">
                             <h3 className="title-project-2">See live</h3>
                             <div className="container-buttons-project-2">
-                                <a target='_blank' href="https://gonzzzza.github.io/Starbucks-Landingpage/">
+                                <a target='_blank' rel='noreferrer' href="https://gonzzzza.github.io/Starbucks-Landingpage/">
                                     <button className='btn-link-project-2'>Live Link</button>
                                 </a>
-                                <a href="https://gonza-trevisani.vercel.app/">
+                                <a href="/">
                                     <button className='btn-back-project-2'>Go back</button>
                                 </a>
                             </div>

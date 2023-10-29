@@ -13,18 +13,16 @@ import { Moggeta } from '../src/Components/Projects/Moggeta Landing Page/Moggeta
 function App() {
   return (
     <BrowserRouter >
-      {/* <div> */}
         <Header />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/project1' element={<NetLanding />} />
-          <Route path='/project2' element={<StarLanding />} />
-          <Route path='/project3' element={<VideogameApp />} />
-          <Route path='/project4' element={<Jagger />} />
-          <Route path='/project5' element={<Moggeta />} />
-        </Routes>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/project1' element={<NetLanding />} />
+            <Route path='/project2' element={<StarLanding />} />
+            <Route path='/project3' element={<VideogameApp />} />
+            <Route path='/project4' element={<Jagger />} />
+            <Route path='/project5' element={<Moggeta />} />
+          </Routes>
         <Footer />
-      {/* </div> */}
     </BrowserRouter>
   )
 }

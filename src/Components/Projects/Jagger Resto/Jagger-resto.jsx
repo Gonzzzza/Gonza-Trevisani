@@ -18,7 +18,7 @@ export const Jagger = () => {
                             </p>
                         </div>
                         <div className="container-button-project4">
-                            <a target='_blank' href="https://dashboard-store-orcin.vercel.app/">
+                            <a target='_blank' rel='noreferrer' href="https://dashboard-store-orcin.vercel.app/">
                                 <button className="btn-project4">
                                     Live Link
                                 </button>
@@ -52,10 +52,10 @@ export const Jagger = () => {
                         <div className="container-see-project-4">
                             <h3 className="title-project-4">See live</h3>
                             <div className="container-buttons-project-4">
-                                <a target='_blank' href="https://dashboard-store-orcin.vercel.app/">
+                                <a target='_blank' rel='noreferrer' href="https://dashboard-store-orcin.vercel.app/">
                                     <button className='btn-link-project-4'>Live Link</button>
                                 </a>
-                                <a href="https://gonza-trevisani.vercel.app/">
+                                <a href="/">
                                     <button className='btn-back-project-4'>Go back</button>
                                 </a>
                             </div>

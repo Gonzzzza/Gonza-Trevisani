@@ -21,7 +21,7 @@ export const Home = () => {
                         </p>
                     </div>
                     <div className="container-button-hero">
-                        <a href="#projects">
+                        <a href="/#projects">
                             <button className="btn-hero">
                                 Projects
                             </button>
@@ -56,12 +56,12 @@ export const Home = () => {
                 <div className="container-down-about">  
                     <div className="container-left-about">
                         <h1>Get to know me!</h1>
-                        <p className="about-text">I&apos;m a <a href="#home"><span className="properties-text">Frontend Web Developer</span></a> building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <a href="#projects"><span className="properties-text"> Projects 
+                        <p className="about-text">I&apos;m a <a href="/#home"><span className="properties-text">Frontend Web Developer</span></a> building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <a href="/#projects"><span className="properties-text"> Projects 
                         </span></a> section. 
                         </p>
-                        <p className="about-text">I&apos;m open to <a href="#projects"><span className="properties-text">Job
-                        </span></a> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don&apos;t hesitate to <a href="#contact"><span className="properties-text">contact</span></a> me.</p>
-                        <a href="#contact"><button className="btn-about">Contact</button></a>
+                        <p className="about-text">I&apos;m open to <a href="/#projects"><span className="properties-text">Job
+                        </span></a> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don&apos;t hesitate to <a href="/#contact"><span className="properties-text">contact</span></a> me.</p>
+                        <a href="/#contact"><button className="btn-about">Contact</button></a>
                     </div>
                     <div className="container-rigth-about">
                         <h1>My Skills</h1>

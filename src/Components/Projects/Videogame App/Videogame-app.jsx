@@ -18,7 +18,7 @@ export const VideogameApp = () => {
                             </p>
                         </div>
                         <div className="container-button-project3">
-                            <a target='_blank' href="https://videogame-page-ten.vercel.app/">
+                            <a target='_blank' rel='noreferrer' href="https://videogame-page-ten.vercel.app/">
                                 <button className="btn-project3">
                                     Live Link
                                 </button>
@@ -52,10 +52,10 @@ export const VideogameApp = () => {
                         <div className="container-see-project-3">
                             <h3 className="title-project-3">See live</h3>
                             <div className="container-buttons-project-3">
-                                <a target='_blank' href="https://videogame-page-ten.vercel.app/">
+                                <a target='_blank' rel='noreferrer' href="https://videogame-page-ten.vercel.app/">
                                     <button className='btn-link-project-3'>Live Link</button>
                                 </a>
-                                <a href="https://gonza-trevisani.vercel.app/">
+                                <a href="/">
                                     <button className='btn-back-project-3'>Go back</button>
                                 </a>
                             </div>

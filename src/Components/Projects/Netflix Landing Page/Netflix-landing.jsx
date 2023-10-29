@@ -51,7 +51,7 @@
                                 <a target='_blank' rel='noreferrer' href="https://gonzzzza.github.io/netflix-landingpage/">
                                     <button className='btn-link-project-1'>Live Link</button>
                                 </a>
-                                <a href="https://gonza-trevisani.vercel.app/">
+                                <a href="/">
                                     <button className='btn-back-project-1'>Go back</button>
                                 </a>
                             </div>

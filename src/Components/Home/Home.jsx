@@ -6,7 +6,6 @@ import project3 from '../../assets/Images/project3-portfolio.jpg';
 import project4 from '../../assets/Images/project4-portfolio.jpg';
 import project5 from '../../assets/Images/project5-portfolio.jpg';
 
-const basename = 'gonzza-trevisani.vercel.app';
 
 export const Home = () => {
     return( 
@@ -102,7 +101,7 @@ export const Home = () => {
                         <h1>Netflix Landing Page</h1>
                         <p className="projects-text">It is a landing page based on the visual of the Netflix streaming site, it is a project that helped me strengthen learning and generate confidence to create projects. 
                         </p>
-                        <a target='_blank' rel="noreferrer" href={`${basename}/project1`}><button className="btn-projects">CASE STUDY</button></a>
+                        <a target='_blank' rel="noreferrer" href='/project1'><button className="btn-projects">CASE STUDY</button></a>
                     </div>
                 </div>
                 <div className="container-down-section-projects">
@@ -113,7 +112,7 @@ export const Home = () => {
                         <h1>Starbucks Landing Page</h1>
                         <p className="projects-text">It is a landing page based on the visual of the Starbucks website, it is a project that helped me strengthen learning and generate confidence to create projects. 
                         </p>
-                        <a target='_blank' rel="noreferrer" href={`${basename}/project2`}><button className="btn-projects">CASE STUDY</button></a>
+                        <a target='_blank' rel="noreferrer" href='/project2'><button className="btn-projects">CASE STUDY</button></a>
                     </div>
                 </div>
                 <div className="container-down-section-projects-videogame">
@@ -124,7 +123,7 @@ export const Home = () => {
                         <h1>Videogame Page</h1>
                         <p className="projects-text">This is a video game page in which I bring data from an API and show it in a visual, it is a project I did to pass the bootcamp. Contains search engine, filters and video game creation form.
                         </p>
-                        <a target='_blank' rel="noreferrer" href={`${basename}/project3`}><button className="btn-projects">CASE STUDY</button></a>
+                        <a target='_blank' rel="noreferrer" href='/project3'><button className="btn-projects">CASE STUDY</button></a>
                     </div>
                 </div>
                 <div className="container-down-section-projects">
@@ -135,7 +134,7 @@ export const Home = () => {
                         <h1>Jager Resto</h1>
                         <p className="projects-text">It is a landing page for the restaurant Jager, it is a project that helped me strengthen learning and generate confidence to create projects.  
                         </p>
-                        <a target='_blank' rel="noreferrer" href={`${basename}/project4`}><button className="btn-projects">CASE STUDY</button></a>
+                        <a target='_blank' rel="noreferrer" href='/project4'><button className="btn-projects">CASE STUDY</button></a>
                     </div>
                 </div>
                 <div className="container-down-section-projects">
@@ -146,7 +145,7 @@ export const Home = () => {
                         <h1>Moggeta Landing Page</h1>
                         <p className="projects-text">It is a design created in figma for a landing page for a silo sales business. 6 page design created, finished and delivered. 
                         </p>
-                        <a target='_blank' rel="noreferrer" href={`${basename}/project5`}><button className="btn-projects">CASE STUDY</button></a>
+                        <a target='_blank' rel="noreferrer" href='/project5'><button className="btn-projects">CASE STUDY</button></a>
                     </div>
                 </div>
             </header>

@@ -1,9 +1,7 @@
-// import { Link } from 'react-router-dom';
 import './Header.css'
 import { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
-const basename = 'gonzza-trevisani.vercel.app';
 
 export const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,7 +20,7 @@ export const Header = () => {
                         {/* <img src={imagelogo} alt="" /> */}
                     </div>
                     <div className="container-name">
-                            <a href={`${basename}/`}>
+                            <a href='/'>
                                 <h3>Gonza Trevisani</h3>
                             </a>
                     </div>

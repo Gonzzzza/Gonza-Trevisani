@@ -9,7 +9,6 @@ import { VideogameApp } from '../src/Components/Projects/Videogame App/Videogame
 import { Jagger } from '../src/Components/Projects/Jagger Resto/Jagger-resto'
 import { Moggeta } from '../src/Components/Projects/Moggeta Landing Page/Moggeta-landing'
 
-const basename = 'gonzza-trevisani.vercel.app';
 
 function App() {
   return (
@@ -17,12 +16,12 @@ function App() {
       {/* <div> */}
         <Header />
         <Routes>
-          <Route path={`${basename}/`} element={<Home />} />
-          <Route path={`${basename}/project1`} element={<NetLanding />} />
-          <Route path={`${basename}/project2`} element={<StarLanding />} />
-          <Route path={`${basename}/project3`} element={<VideogameApp />} />
-          <Route path={`${basename}/project4`} element={<Jagger />} />
-          <Route path={`${basename}/project5`} element={<Moggeta />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/project1' element={<NetLanding />} />
+          <Route path='/project2' element={<StarLanding />} />
+          <Route path='/project3' element={<VideogameApp />} />
+          <Route path='/project4' element={<Jagger />} />
+          <Route path='/project5' element={<Moggeta />} />
         </Routes>
         <Footer />
       {/* </div> */}

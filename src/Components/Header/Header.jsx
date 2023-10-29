@@ -35,22 +35,22 @@ export const Header = () => {
             </div>
             <nav className={`container-links ${isMenuOpen ? 'open' : ''}`}>
                 <div className='link'>
-                        <a href="#home" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
+                        <a href="/#home" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
                             <h3>Home</h3>
                         </a>
                 </div>
                 <div className='link'>
-                        <a href="#about" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
+                        <a href="/#about" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
                             <h3>About</h3>
                         </a>
                 </div>
                 <div className='link'>
-                        <a href="#projects" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
+                        <a href="/#projects" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
                             <h3>Projects</h3>
                         </a>
                 </div>
                 <div className='link'>
-                        <a href="#contact" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
+                        <a href="/#contact" onClick={toggleMenu} className={`link-nav ${isMenuOpen ? 'open' : ''}`}>
                             <h3>Contact</h3>
                         </a>
                 </div>
